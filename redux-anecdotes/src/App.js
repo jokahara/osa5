@@ -2,6 +2,7 @@ import React from 'react';
 
 
 class App extends React.Component {
+  
   vote = (anecdote) => () => {
     this.props.store.dispatch({ 
       type: 'VOTE', 
